@@ -18,7 +18,12 @@ You need three different sets of credentials.
 
    1. Log in to Bluemix at https://bluemix.net.
    2. Create an instance of the service:
-   3. In the Bluemix Catalog, select the Watson service.
+   3. In the Bluemix Catalog, select the  Watson Conversation service.
+
+  ![alt text](screenshots/screenshot1.png "1")  
+
+
+
    4. Type a unique name for the service instance in the Service name field. For example, type my-service-name. Leave the default values for the other options.
    5. Click Create.
    6. From the service dashboard, click Service credentials.
