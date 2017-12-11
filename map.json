@@ -1,0 +1,269 @@
+[{
+		"location": "Student Services Center",
+		"grid": "A4"
+	},
+
+	{
+		"location": "Hugh Gillis Hall",
+		"grid": "B1"
+	},
+	{
+		"location": "ATM, Dr. Martin Luther King, Jr. Library",
+		"grid": "B1"
+	},
+	{
+		"location": "Dr. Martin Luther King, Jr. Library",
+		"grid": "B1"
+	},
+	{
+		"location": "On Fourth Cafe, Dr. Martin Luther King, Jr. Library",
+		"grid": "B1"
+	},
+	{
+		"location": "University Theatre",
+		"grid": "B1"
+	},
+
+	{
+		"location": "Administration",
+		"grid": "B2"
+	},
+	{
+		"location": "Career Center",
+		"grid": "B2"
+	},
+	{
+		"location": "Computer Center",
+		"grid": "B2"
+	},
+	{
+		"location": "Clark Hall",
+		"grid": "B2"
+	},
+	{
+		"location": "Dudley Moorhead Hall",
+		"grid": "B2"
+	},
+	{
+		"location": "Instructional Resource Center",
+		"grid": "B2"
+	},
+	{
+		"location": "Morris Dailey Auditorium",
+		"grid": "B2"
+	},
+	{
+		"location": "Tower Hall",
+		"grid": "B2"
+	},
+
+	{
+		"location": "AS Print Shop",
+		"grid": "B3"
+	},
+	{
+		"location": "Bookstore",
+		"grid": "B3"
+	},
+	{
+		"location": "Engineering Building",
+		"grid": "B3"
+	},
+	{
+		"location": "Diaz Compean Student Union",
+		"grid": "B3"
+	},
+	{
+		"location": "Starbucks, Student Union",
+		"grid": "B3"
+	},
+	{
+		"location": "Subway, Student Union",
+		"grid": "B3"
+	},
+	{
+		"location": "Union Square Food Court, Student Union",
+		"grid": "B3"
+	},
+	{
+		"location": "US Bank Branch and ATM, Student Union",
+		"grid": "B3"
+	},
+
+	{
+		"location": "Modular 100A",
+		"grid": "B4"
+	},
+	{
+		"location": "Modular 100B",
+		"grid": "B4"
+	},
+	{
+		"location": "Bank of America ATM",
+		"grid": "B4"
+	},
+	{
+		"location": "Chase ATM",
+		"grid": "B4"
+	},
+	{
+		"location": "Wells Fargo ATM",
+		"grid": "B4"
+	},
+	{
+		"location": "Corporation Yard A",
+		"grid": "B4"
+	},
+	{
+		"location": "Corporation Yard B",
+		"grid": "B4"
+	},
+	{
+		"location": "Industrial Studies",
+		"grid": "B4"
+	},
+	{
+		"location": "Modular F",
+		"grid": "B4"
+	},
+
+	{
+		"location": "Science Building",
+		"grid": "C1"
+	},
+	{
+		"location": "Spartan Memorial",
+		"grid": "C1"
+	},
+	{
+		"location": "Washington Square Hall",
+		"grid": "C1"
+	},
+	{
+		"location": "Yoshihiro Uchida Hall",
+		"grid": "C1"
+	},
+
+	{
+		"location": "Central Classroom Building",
+		"grid": "C2"
+	},
+	{
+		"location": "Dwight Bentel Hall",
+		"grid": "C2"
+	},
+	{
+		"location": "Faculty Offices",
+		"grid": "C2"
+	},
+	{
+		"location": "Spartan Complex Central",
+		"grid": "C2"
+	},
+	{
+		"location": "Spartan Complex East",
+		"grid": "C2"
+	},
+	{
+		"location": "Student Wellness Center",
+		"grid": "C2"
+	},
+
+	{
+		"location": "Art Building",
+		"grid": "C3"
+	},
+	{
+		"location": "Concert Hall",
+		"grid": "C3"
+	},
+	{
+		"location": "ATM, Event Center",
+		"grid": "C3"
+	},
+	{
+		"location": "Event Center",
+		"grid": "C3"
+	},
+	{
+		"location": "Music Building",
+		"grid": "C3"
+	},
+
+	{
+		"location": "Boccardo Business Complex",
+		"grid": "C4"
+	},
+	{
+		"location": "Snack Shack, Boccardo Business Courtyard",
+		"grid": "C4"
+	},
+	{
+		"location": "Business Tower",
+		"grid": "C4"
+	},
+	{
+		"location": "Cooling Plant",
+		"grid": "C4"
+	},
+	{
+		"location": "Health Building",
+		"grid": "C4"
+	},
+
+	{
+		"location": "Associated Students House",
+		"grid": "D1"
+	},
+	{
+		"location": "Duncan Hall",
+		"grid": "D1"
+	},
+
+	{
+		"location": "Just Below, MacQuarrie Hall",
+		"grid": "D2"
+	},
+	{
+		"location": "MacQuarrie Hall",
+		"grid": "D2"
+	},
+	{
+		"location": "Sweeney Hall",
+		"grid": "D2"
+	},
+	{
+		"location": "University Police Department",
+		"grid": "D2"
+	},
+
+	{
+		"location": "Dining Commons",
+		"grid": "D3"
+	},
+	{
+		"location": "Student Recreation and Aquatic Center",
+		"grid": "D3"
+	},
+	{
+		"location": "Washburn Hall",
+		"grid": "D3"
+	},
+
+	{
+		"location": "Campus Village 2",
+		"grid": "D4"
+	},
+	{
+		"location": "Campus Village A",
+		"grid": "D4"
+	},
+	{
+		"location": "Campus Village B",
+		"grid": "D4"
+	},
+	{
+		"location": "Joe West",
+		"grid": "D4"
+	}
+]

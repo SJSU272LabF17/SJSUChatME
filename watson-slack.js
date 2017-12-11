@@ -4,6 +4,8 @@ var request = require('request');
 var weather = require('./weather.js');
 var course = require('./course.js');
 var library = require('./libraryTime.js')
+var locate = require('./map.js')
+var proff = require('./proffessors.js')
 
 var middleware = require('botkit-middleware-watson')({
     username: process.env.CONVERSATION_USERNAME,
@@ -28,7 +30,8 @@ controller.setupWebserver(3000, function (err, webserver) {
         if (err) {
             res.status(500).send('ERROR: ' + err);
         } else {
-            res.send('Success!');
+            //res.send('Success!');
+          res.redirect('https://distinct-cross.glitch.me/sucess.html');
         }
     });
 });
@@ -54,6 +57,14 @@ function invokeAction(watsonDataOutput, bot, message) {
         
         case 'libraryTiming':
             library.libraryTiming(watsonDataOutput, bot, message);
+            break;
+        
+        case 'lookupLocation':
+            locate.lookupLocation(watsonDataOutput, bot, message);
+            break; 
+        
+        case 'lookupProff':
+            proff.lookupProff(watsonDataOutput, bot, message);
             break;       
       
         default:
@@ -126,7 +137,7 @@ controller.on('create_bot', function (bot, config) {
                 if (err) {
                     console.log(err);
                 } else {
-                    convo.say('I am a bot that has just joined your team');
+                    convo.say("Hello! I'm ChatME bot for SJSU related queries.");
                 }
             });
         });
@@ -160,4 +171,5 @@ controller.storage.teams.all(function (err, teams) {
         }
     }
 });
+
 

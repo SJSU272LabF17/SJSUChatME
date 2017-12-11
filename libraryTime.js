@@ -81,7 +81,7 @@ var libraryTiming = function libraryTiming(watsonDataOutput, bot, message) {
             break;
         case 'Saturday':
             answer = answer + 'from 9 AM to 6 PM.';
-            if(hours >= 9 && hours <=18){
+            if(hours >= 9 && hours <18){
               secondline = secondline + 'open';
             } else {
               secondline = secondline + 'closed';
