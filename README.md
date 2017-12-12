@@ -45,7 +45,7 @@ You need three different sets of credentials.
 
    1. Log in to Bluemix at https://bluemix.net.
    2. Create an instance of the service:
-   3. In the Bluemix Catalog, select the  Watson Conversation service.
+   3. In the Bluemix Catalog, select the  Weather Company Data service.
 
   ![alt text](screenshots/screenshot4.png "1")  
 
