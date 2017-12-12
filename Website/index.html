@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SJSU ChatME Bot</title>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    font-family:verdana;
+    background:#eee;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: white;color:black;font-family:verdana;}
+navigation {background: black;color:black;font-family:verdana;}
+  navigation a{color:white}
+footer {background: #aaa;color:black;font-family:verdana;
+  position: fixed;
+  bottom: 0px;
+  width:100%;}
+.nav {background:#bbb;font-family:verdana;}
+
+.nav ul {
+  overflow: scroll;
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+  overflow: scroll;
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+<div class="flex-container">
+<header>
+  <h1>SJSU ChatMe Bot</h1>
+
+</header>
+  <navigation>
+       <table style="width:100%">
+  <tr>
+    <td><a href="https://distinct-cross.glitch.me/">Home</a></td>
+    <td><a href="https://distinct-cross.glitch.me/functions.html">What can it do?</a></td> 
+    <td><a href="https://distinct-cross.glitch.me/privacy.html">Privacy Policy</a></td> 
+    <td><a href="https://distinct-cross.glitch.me/contact.html">Contact Us</a></td> 
+  </tr>
+</table>
+  </navigation>
+
+<nav class="nav">
+  <br>
+  <br>
+  <p align="middle">
+    <img alt="Add to Slack" height="200" width="200" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/SJSU_Seal.svg/600px-SJSU_Seal.svg.png" />
+  </p>
+  <br>
+  <p align="middle">
+    <a href="https://slack.com/oauth/authorize?client_id=270848161378.270333763521&scope=incoming-webhook,bot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+  </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</nav>
+
+<article class="article">
+  <h1>About</h1>
+  <p>
+    This is a bot for SJSU related questions.
+    You can ask questions about library timings, weather in SJSU, 
+    which courses to take and even where can you can find a building when you get lost in the campus.
+  </p>
+  <br>
+  <p align="middle">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AYAqzDaI17c?rel=0" frameborder="0" allowfullscreen></iframe>
+  </p>
+  <br>
+  
+  <h1>On Boarding</h1>
+  <p>
+    You will require a Slack account for the chatbot. Visit 
+    <a href="https://slack.com/">Slack Homepage</a> for more details on Slack account.
+  </p>
+  <p>
+    Please watch the video below to know how to install the chatbot to your Slack workspace.
+  </p>
+  <br>
+  <p align="middle">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nr5Vdsu8WcU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<!--     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ezlhWyUzfbE?rel=0" frameborder="0" allowfullscreen></iframe> -->
+  </p>
+  <br>
+  <p>
+    Click on "Add to Slack" button to add the bot to your workspace
+  </p>
+  <br>
+  
+  </article>
+
+<footer>Made by CMPE 272 Fall 2017 - Team 28</footer>
+</div>
+
+</body>
+</html>
+
+
