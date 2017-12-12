@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SJSU ChatME Bot</title>
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+    font-family:verdana;
+    background:#eee;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: white;color:black;font-family:verdana;}
+navigation {background: black;color:black;font-family:verdana;}
+  navigation a{color:white}
+footer {background: #aaa;color:black;font-family:verdana;
+  position: fixed;
+  bottom: 0px;
+  width:100%;}
+.nav {background:#bbb;font-family:verdana;}
+
+.nav ul {
+  overflow: scroll;
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+  overflow: scroll;
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+<div class="flex-container">
+<header>
+  <h1>SJSU ChatMe Bot</h1>
+
+</header>
+  <navigation>
+       <table style="width:100%">
+  <tr>
+    <td><a href="https://distinct-cross.glitch.me/">Home</a></td>
+    <td><a href="https://distinct-cross.glitch.me/functions.html">What can it do?</a></td> 
+    <td><a href="https://distinct-cross.glitch.me/privacy.html">Privacy Policy</a></td> 
+    <td><a href="https://distinct-cross.glitch.me/contact.html">Contact Us</a></td> 
+  </tr>
+</table>
+  </navigation>
+
+<nav class="nav">
+  <br>
+  <br>
+  <p align="middle">
+    <img alt="Add to Slack" height="200" width="200" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/SJSU_Seal.svg/600px-SJSU_Seal.svg.png" />
+  </p>
+  <br>
+  <p align="middle">
+    <a href="https://slack.com/oauth/authorize?client_id=270848161378.270333763521&scope=incoming-webhook,bot"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a>
+  </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+</nav>
+
+<article class="article">
+  <h1>Privacy Policy</h1>
+  <p>
+    Your privacy is very important to us.
+  </p>
+  <p>
+    That is why we never store any messages sent to the bot in any of our database.
+  </p>
+  <p>
+    A message once received by our chatbot is instantly processed for a reply. </p>
+  <p>
+    Once reply is generated the incoming message is destroyed from our servers.
+  </p>
+  
+  
+  </article>
+
+<footer>Made by CMPE 272 Fall 2017 - Team 28</footer>
+</div>
+
+</body>
+</html>
+
+
